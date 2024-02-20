@@ -33,21 +33,21 @@ const ContactForm = () => {
       {!confirmation &&
         <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-8 w-full'>
           <input
-            className='h-10 bg-transparent border-b border-custom-gray outline-0 outline-transparent text-white indent-4 focus:border-custom-green'
+            className='h-10 bg-transparent border-solid border-x-0 border-t-0 border-b border-custom-gray outline-0 outline-transparent text-white indent-4 focus:border-custom-green'
             type="text"
             name="user_name"
             placeholder='NAME'
             required
           />
           <input
-            className='h-10 bg-transparent border-b border-custom-gray outline-0 outline-transparent text-white indent-4 focus:border-custom-green'
+            className='h-10 bg-transparent border-solid border-x-0 border-t-0 border-b border-custom-gray outline-0 outline-transparent text-white indent-4 focus:border-custom-green'
             type="email"
             name="user_email"
             placeholder='EMAIL'
             required
           />
           <textarea
-            className='h-28 bg-transparent border-b border-custom-gray outline-0 outline-transparent text-white indent-4 focus:border-custom-green'
+            className='h-28 bg-transparent border-solid border-x-0 border-t-0 border-b border-custom-gray outline-0 outline-transparent text-white indent-4 focus:border-custom-green'
             name="message"
             placeholder='MESSAGE'
             required

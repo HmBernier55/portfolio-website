@@ -12,8 +12,8 @@ const ProjectItem = ({websiteURL, codeURL, image, name, languagesUsed}) => {
           ))}
         </div>
         <div className='flex gap-5'>
-          <a className='w-fit self-end text-white font-bold tracking-[2px] border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110' href={websiteURL} target='_blank'>VIEW PROJECT</a>
-          <a className='w-fit self-end text-white font-bold tracking-[2px] border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110' href={codeURL} target='_blank'>VIEW CODE</a>
+          <a className='w-fit self-end text-white font-bold tracking-[2px] border-solid border-x-0 border-t-0 border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110' href={websiteURL} target='_blank'>VIEW PROJECT</a>
+          <a className='w-fit self-end text-white font-bold tracking-[2px] border-solid border-x-0 border-t-0 border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110' href={codeURL} target='_blank'>VIEW CODE</a>
         </div>
       </div>
     </div>
