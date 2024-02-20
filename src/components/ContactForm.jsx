@@ -61,13 +61,13 @@ const ContactForm = () => {
         </form>
       }
       {confirmation &&
-        <div className='flex flex-col'>
+        <div className='flex flex-col gap-8'>
           <div className='flex items-center gap-10'>
             <img className='h-20 w-20' src={GreenCheckMark} alt="check mark" />
-            <p className='text-white text-3xl font-bold'>Thanks for reaching out!</p>
+            <p className='text-white text-3xl font-bold text-right'>Thanks for reaching out!</p>
           </div>
           <button
-            className='w-fit self-end text-white font-bold tracking-[2px] border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110'
+            className='w-fit self-end text-white font-bold tracking-[2px] border-solid border-x-0 border-t-0 border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110'
             onClick={() => setConfirmation(false)}
           >
             SEND ANOTHER MESSAGE
