@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='w-[35%] flex'>
+    <div className='xl:w-[35%] flex'>
       {!confirmation &&
         <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-8 w-full'>
           <input

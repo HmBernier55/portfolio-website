@@ -3,7 +3,7 @@ import GithubLogo from '../assets/icon-github.svg';
 
 const Header = () => {
   return (
-    <nav className='flex py-11 items-center justify-between font-bold relative z-50'>
+    <nav className='flex flex-col gap-3 sm:gap-0 sm:flex-row py-11 items-center justify-between font-bold'>
       <h2 className='text-white text-3xl'>hunterbernier</h2>
       <div className='flex gap-8'>
         <a href="https://github.com/HmBernier55" target='_blank'>

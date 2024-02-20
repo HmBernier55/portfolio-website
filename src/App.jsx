@@ -7,14 +7,14 @@ function App() {
 
   return (
     <div className=''>
-      <div className='bg-black px-40'>
+      <div className='bg-black px-10 md:px-40'>
         <Header />
         <Introduction />
         <Experience />
         <Projects />
         <Education />
       </div>
-      <div className='bg-custom-dark-gray px-40'>
+      <div className='bg-custom-dark-gray px-10 md:px-40'>
         <Contact />
         <Header />
       </div>

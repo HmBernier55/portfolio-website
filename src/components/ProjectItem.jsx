@@ -5,10 +5,10 @@ const ProjectItem = ({websiteURL, codeURL, image, name, languagesUsed}) => {
     <div className='flex flex-col gap-5'>
       <img src={image} alt={`${name} screenshot`} />
       <div className='flex flex-col gap-2'>
-        <h4 className='text-white text-2xl font-bold uppercase'>{name}</h4>
+        <h4 className='text-white text-xl sm:text-2xl font-bold uppercase'>{name}</h4>
         <div className='flex gap-4 flex-wrap'>
           {languagesUsed.map((language, index) => (
-            <p key={index} className='text-custom-gray text-lg font-medium'>{language}</p>
+            <p key={index} className='text-custom-gray text-medium sm:text-lg font-medium'>{language}</p>
           ))}
         </div>
         <div className='flex gap-5'>

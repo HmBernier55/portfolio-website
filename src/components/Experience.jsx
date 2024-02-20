@@ -4,7 +4,7 @@ import { ExperienceItem } from './index';
 
 const Experience = () => {
   return (
-    <div className='pt-20 border-t border-white grid grid-cols-3 gap-14'>
+    <div className='py-20 border-y border-white grid sm:grid-cols-2 xl:grid-cols-3 gap-14 justify-center'>
       <ExperienceItem
         name="Matlab"
         experience="7 Years"
