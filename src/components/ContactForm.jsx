@@ -53,7 +53,7 @@ const ContactForm = () => {
             required
           />
           <button
-            className='w-fit self-end text-white font-bold tracking-[2px] border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110'
+            className='w-fit self-end text-white font-bold tracking-[2px] border-solid border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110'
             type="submit"
           >
             SEND MESSAGE

@@ -10,7 +10,7 @@ const Introduction = () => {
         <h1 className='text-white text-6xl xl:text-[86px] font-bold leading-none tracking-tight text-center xl:text-left'>Nice to meet you! I'm <span className='underline decoration-custom-green underline-offset-8'>Hunter Bernier</span>.</h1>
         <p className='text-custom-gray text-medium xl:text-lg font-medium text-center xl:text-left'>Based in Birmingham, AL, I'm a self-taught front-end developer working my way to becoming full-stack. I'm hard-working and self-motivated and feel that I would make a great fit for any team.</p>
         <a
-          className='w-fit self-center xl:self-start text-white font-bold tracking-[2px] border border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110'
+          className='w-fit self-center xl:self-start text-white font-bold tracking-[2px] border-solid border-b-2 border-custom-green py-2 transition ease-in-out duration-300 hover:text-custom-green hover:scale-110'
           href={Resume}
           download='Hunter-Bernier-Resume'
         >DOWNLOAD RESUME</a>
